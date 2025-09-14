@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "org/mixin/ToolDurabilityMixin": {
+      "hurt": "Lnet/minecraft/world/item/ItemStack;m_220157_(ILnet/minecraft/util/RandomSource;Lnet/minecraft/server/level/ServerPlayer;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "org/mixin/ToolDurabilityMixin": {
+        "hurt": "Lnet/minecraft/world/item/ItemStack;m_220157_(ILnet/minecraft/util/RandomSource;Lnet/minecraft/server/level/ServerPlayer;)Z"
+      }
+    }
+  }
+}
