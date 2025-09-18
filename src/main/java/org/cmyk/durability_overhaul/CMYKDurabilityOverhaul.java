@@ -1,4 +1,4 @@
-package org;
+package org.cmyk.durability_overhaul;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -23,20 +23,19 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.RegisterEvent;
-import org.config.BlockDurabilityConfig;
 import org.slf4j.Logger;
 // 在导入部分添加
 import java.util.Optional;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(cmyk.MODID)
-public class cmyk {
+@Mod(CMYKDurabilityOverhaul.MODID)
+public class CMYKDurabilityOverhaul {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "cmyk";
+    public static final String MODID = "cmyk.durability_overhaul";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public cmyk() {
+    public CMYKDurabilityOverhaul() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading

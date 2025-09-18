@@ -1,4 +1,4 @@
-package org.mixin;
+package org.cmyk.durability_overhaul.mixin;
 
 // 修复导入语句
 import net.minecraft.world.item.ItemStack;
@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 // 修复导入语句格式
-import org.cmyk;
+import org.cmyk.durability_overhaul.CMYKDurabilityOverhaul;
 
 @Mixin(ItemStack.class)
 public class ToolDurabilityMixin {
